@@ -47,7 +47,7 @@ $alt_base_color:   if($variant == 'light', $gruv_white_1,  mix($base_color, $bg_
 $lighter_bg_color: if($variant == 'light', $gruv_white_1,  fade($gruv_black_4));
 $darker_bg_color:  if($variant == 'light', $gruv_white_3, fade($gruv_black_0));
 
-$titlebar_bg_color:     if($titlebar == 'dark', if($variant == 'light', $gruv_black_4, $gruv_black_3), $gruv_white_3);
+$titlebar_bg_color:     if($titlebar == 'dark', if($variant == 'light', $gruv_black_4, $gruv_black_1), $gruv_white_3);
 $alt_titlebar_bg_color: if($titlebar == 'dark', $gruv_black_3, mix($gruv_white_3, $gruv_white_4, 50%));
 $panel_bg_color:        if($titlebar == 'dark', $gruv_black_1, rgba($gruv_black_0, $middle_opacity));
 $unity_panel_bg_color:  if($titlebar == 'dark', $gruv_black_1, mix($gruv_white_3, $gruv_white_4, 50%)); // translucent colors cannot be used for Unity and MATE panels
