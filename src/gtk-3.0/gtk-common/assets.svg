@@ -11,67 +11,67 @@
     <!-- <solidColor id="color-fg-dark" solid-color="#FFFFFF"/> -->
 
     <linearGradient id="color-fg">
-      <stop stop-color="#000000" stop-opacity="0.87"/>
+      <stop stop-color="#1D2021" stop-opacity="0.87"/>
     </linearGradient>
 
     <linearGradient id="color-fg-dark">
-      <stop stop-color="#FFFFFF"/>
+      <stop stop-color="#F9F5D7"/>
     </linearGradient>
 
     <linearGradient id="color-fg-secondary">
-      <stop stop-color="#000000" stop-opacity="0.54"/>
+      <stop stop-color="#1D2021" stop-opacity="0.54"/>
     </linearGradient>
 
     <linearGradient id="color-fg-secondary-dark">
-      <stop stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop stop-color="#F9F5D7" stop-opacity="0.7"/>
     </linearGradient>
 
     <linearGradient id="color-fg-secondary-disabled">
-      <stop stop-color="#000000" stop-opacity="0.26"/>
+      <stop stop-color="#1D2021" stop-opacity="0.26"/>
     </linearGradient>
 
     <linearGradient id="color-fg-secondary-disabled-dark">
-      <stop stop-color="#FFFFFF" stop-opacity="0.3"/>
+      <stop stop-color="#F9F5D7" stop-opacity="0.3"/>
     </linearGradient>
 
     <linearGradient id="color-divider">
-      <stop stop-color="#000000" stop-opacity="0.12"/>
+      <stop stop-color="#1D2021" stop-opacity="0.12"/>
     </linearGradient>
 
     <linearGradient id="color-divider-dark">
-      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop stop-color="#F9F5D7" stop-opacity="0.12"/>
     </linearGradient>
 
     <linearGradient id="color-accent">
-      <stop stop-color="#FF4081"/>
+      <stop stop-color="#458588"/>
     </linearGradient>
 
     <linearGradient id="color-accent-disabled">
-      <stop stop-color="#FF4081" stop-opacity="0.5"/>
+      <stop stop-color="#458588" stop-opacity="0.5"/>
     </linearGradient>
 
     <linearGradient id="color-bg">
-      <stop stop-color="#F5F5F5"/>
+      <stop stop-color="#fbf1c7"/>
     </linearGradient>
 
     <linearGradient id="color-bg-dark">
-      <stop stop-color="#333e43"/>
+      <stop stop-color="#282828"/>
     </linearGradient>
 
     <linearGradient id="color-bg-lighter">
-      <stop stop-color="#FAFAFA"/>
+      <stop stop-color="#F2E5BC"/>
     </linearGradient>
 
     <linearGradient id="color-bg-lighter-dark">
-      <stop stop-color="#414f56"/>
+      <stop stop-color="#3C3836"/>
     </linearGradient>
 
     <linearGradient id="color-base">
-      <stop stop-color="#FFFFFF"/>
+      <stop stop-color="#F9F5D7"/>
     </linearGradient>
 
     <linearGradient id="color-base-dark">
-      <stop stop-color="#3b484e"/>
+      <stop stop-color="#32302F"/>
     </linearGradient>
 
     <filter id="1" color-interpolation-filters="sRGB" x="0" y="0" width="1" height="1">
