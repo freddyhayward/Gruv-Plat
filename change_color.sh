@@ -156,7 +156,7 @@ for FILEPATH in "${PATHLIST[@]}"; do
 		-e 's/#414f56/%MENU_BG3%/g' \
 		-e 's/$grey_50/%BTN_BG%/g' \
 		-e 's/#FAFAFA/%BTN_BG%/g' \
-		-e 's/Flat-Plat/%OUTPUT_THEME_NAME%/g' \
+		-e 's/Gruv-Plat/%OUTPUT_THEME_NAME%/g' \
 		{} \; ;
 done
 

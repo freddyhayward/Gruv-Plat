@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Flat-Plat-light-compact
-Comment=A Material Design-like theme
+Name=Gruv-Plat-light-compact
+Comment=A fork of Flat-Plat using the gruvbox colorscheme.
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Flat-Plat-light-compact
-MetacityTheme=Flat-Plat-light-compact
+GtkTheme=Gruv-Plat-light-compact
+MetacityTheme=Gruv-Plat-light-compact
 IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24

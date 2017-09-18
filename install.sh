@@ -25,7 +25,7 @@ fi
 
 echo
 
-themedir_base_fallback=${destdir:-}/usr/share/themes/Flat-Plat
+themedir_base_fallback=${destdir:-}/usr/share/themes/Gruv-Plat
 themedir_base=${THEME_DIR_BASE:-$themedir_base_fallback}
 
 _COLOR_VARIANTS=(
@@ -46,7 +46,7 @@ fi
 
 for color in "${_COLOR_VARIANTS[@]}" ; do
   for size in "${_SIZE_VARIANTS[@]}" ; do
-    echo Installing Flat-Plat${color}${size} ...
+    echo Installing Gruv-Plat${color}${size} ...
 
     themedir=${themedir_base}${color}${size}
     if [[ -d ${themedir} ]] ; then
@@ -70,15 +70,15 @@ for color in "${_COLOR_VARIANTS[@]}" ; do
     install -d ${themedir}/chrome
     cd ${srcdir}/chrome
     cp -ur \
-      "Flat-Plat${color} Theme.crx" \
+      "Gruv-Plat${color} Theme.crx" \
       ${themedir}/chrome
     if [ "$color" != '-dark' ] ; then
       cp -ur \
-        "Flat-Plat Scrollbars.crx" \
+        "Gruv-Plat Scrollbars.crx" \
         ${themedir}/chrome
     else
       cp -ur \
-        "Flat-Plat${color} Scrollbars.crx" \
+        "Gruv-Plat${color} Scrollbars.crx" \
         ${themedir}/chrome
     fi
 
