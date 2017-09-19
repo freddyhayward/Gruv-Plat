@@ -66,5 +66,5 @@ $warning_bg_color:  $gruv_orange_1;
 $error_bg_color:    $gruv_red_1;
 
 $border_color:        if($variant == 'light', rgba($gruv_black_0, 0.12), rgba($gruv_black_0, 0.26));
-$highlight_color:     if($variant == 'light', rgba($gruv_white_0, 0.4),  rgba($gruv_white_0, 0.1));
+$highlight_color:     if($variant == 'light', rgba($gruv_white_0, 0.4),  rgba($gruv_black_0, 0.1));
 $alt_highlight_color: rgba($gruv_white_0, 0.2);
