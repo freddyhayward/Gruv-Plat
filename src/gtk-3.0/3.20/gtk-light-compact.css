@@ -3462,7 +3462,7 @@ infobar {
 }
 
 infobar.info {
-  background-color: #98971A;
+  background-color: #689D6A;
 }
 
 infobar.question {
@@ -3599,7 +3599,7 @@ colorswatch#add-color-button:only-child {
 }
 
 colorswatch#add-color-button overlay {
-  background-image: linear-gradient(to right, #CC241D 25%, #D65D0E 25%, #D65D0E 50%, #98971A 50%, #98971A 75%, #458588 75%);
+  background-image: linear-gradient(to right, #CC241D 25%, #D65D0E 25%, #D65D0E 50%, #689D6A 50%, #689D6A 75%, #458588 75%);
   color: #F9F5D7;
 }
 

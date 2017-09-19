@@ -2,6 +2,9 @@
 set -ueo pipefail
 #set -x
 
+sudo rm -rf /usr/share/themes/Gruv-Plat{,-compact,-dark,-dark-compact,-light,-light-compact}
+
+
 repodir=$(cd $(dirname $0) && pwd)
 srcdir=${repodir}/src
 
@@ -70,15 +73,15 @@ for color in "${_COLOR_VARIANTS[@]}" ; do
     install -d ${themedir}/chrome
     cd ${srcdir}/chrome
     cp -ur \
-      "Gruv-Plat${color} Theme.crx" \
+      "Flat-Plat${color} Theme.crx" \
       ${themedir}/chrome
     if [ "$color" != '-dark' ] ; then
       cp -ur \
-        "Gruv-Plat Scrollbars.crx" \
+        "Flat-Plat Scrollbars.crx" \
         ${themedir}/chrome
     else
       cp -ur \
-        "Gruv-Plat${color} Scrollbars.crx" \
+        "Flat-Plat${color} Scrollbars.crx" \
         ${themedir}/chrome
     fi
 

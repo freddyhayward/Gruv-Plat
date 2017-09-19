@@ -42,15 +42,15 @@ $inverse_divider_color:               rgba($gruv_white_0, 0.12);
 
 // Background colors
 $bg_color:         if($variant == 'light', $gruv_white_2, fade($gruv_black_1));
-$base_color:       if($variant == 'light', $gruv_white_0,    fade($gruv_black_4));
+$base_color:       if($variant == 'light', $gruv_white_0,    fade($gruv_black_2));
 $alt_base_color:   if($variant == 'light', $gruv_white_1,  mix($base_color, $bg_color, 50%));
-$lighter_bg_color: if($variant == 'light', $gruv_white_1,  fade($gruv_black_4));
+$lighter_bg_color: if($variant == 'light', $gruv_white_1,  fade($gruv_black_3));
 $darker_bg_color:  if($variant == 'light', $gruv_white_3, fade($gruv_black_0));
 
-$titlebar_bg_color:     if($titlebar == 'dark', if($variant == 'light', $gruv_black_4, $gruv_black_1), $gruv_white_3);
-$alt_titlebar_bg_color: if($titlebar == 'dark', $gruv_black_3, mix($gruv_white_3, $gruv_white_4, 50%));
-$panel_bg_color:        if($titlebar == 'dark', $gruv_black_1, rgba($gruv_black_0, $middle_opacity));
-$unity_panel_bg_color:  if($titlebar == 'dark', $gruv_black_1, mix($gruv_white_3, $gruv_white_4, 50%)); // translucent colors cannot be used for Unity and MATE panels
+$titlebar_bg_color:     if($titlebar == 'dark', if($variant == 'light', $gruv_black_4, $gruv_black_0), $gruv_white_3);
+$alt_titlebar_bg_color: if($titlebar == 'dark', $gruv_black_0, mix($gruv_white_3, $gruv_white_4, 50%));
+$panel_bg_color:        if($titlebar == 'dark', $gruv_black_0, rgba($gruv_black_0, $middle_opacity));
+$unity_panel_bg_color:  if($titlebar == 'dark', $gruv_black_0, mix($gruv_white_3, $gruv_white_4, 50%)); // translucent colors cannot be used for Unity and MATE panels
 $alt_panel_bg_color:    rgba($gruv_black_0, $lower_opacity);
 
 $fill_color:      gtkalpha(currentColor, $lower_opacity);
@@ -73,7 +73,7 @@ $success_color: $gruv_green_1;
 $suggested_color:   $accent_color;
 $destructive_color: $gruv_red_1;
 
-$info_bg_color:     $gruv_green_1;
+$info_bg_color:     $gruv_aqua_1;
 $question_bg_color: $gruv_blue_1;
 $warning_bg_color:  $gruv_orange_1;
 $error_bg_color:    $gruv_red_1;
