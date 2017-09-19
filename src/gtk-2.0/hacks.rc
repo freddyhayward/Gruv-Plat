@@ -16,7 +16,7 @@ style "chrome_entry" {
 }
 
 style "vim_notebook" {
-  bg[NORMAL] = @base_color
+  bg[NORMAL] = @titlebar_bg_color
   bg[ACTIVE] = @bg_color
 }
 
