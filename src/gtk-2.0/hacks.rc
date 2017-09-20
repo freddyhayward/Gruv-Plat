@@ -16,8 +16,8 @@ style "chrome_entry" {
 }
 
 style "vim_notebook" {
-  bg[NORMAL] = @titlebar_bg_color
-  bg[ACTIVE] = @titlebar_bg_color
+  bg[NORMAL] = "#FF0000" #@titlebar_bg_color
+  bg[ACTIVE] = "#FF0000" #@titlebar_bg_color
 }
 
 # Vim puts an eventbox between the tab and the label and colours it,
