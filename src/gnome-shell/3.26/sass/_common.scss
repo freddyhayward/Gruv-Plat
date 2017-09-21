@@ -1297,7 +1297,7 @@ StScrollBar {
   -st-background-image-shadow: $shadow_1;
   background-image: url("assets/window-close.svg");
   background-size: $medium_size;
-  &:hover { -st-background-image-shadow: $shadow_2; }
+  &:hover { -st-background-image-shadow: $shadow_2; background-image: url("assets/window-close-hover.svg") }
   &:active { background-image: url("assets/window-close-active.svg"); }
 }
   .window-close {
